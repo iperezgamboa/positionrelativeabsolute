@@ -1,0 +1,24 @@
+.abuelo {
+  background: black;
+  height: 500px;
+  width: 1200px;
+}
+
+.padre {
+  position: relative; /* el padre es que tiene position relative*/
+  background: rgb(174, 136, 201);
+  height: 400px;
+  width: 800px;
+  border: 5px solid green;
+  margin: 0 auto;
+}
+
+.hijo {
+  position: absolute; /* intenta encontrar su ancestro posicionado */
+  background: white;
+  height: 200px;
+  width: 200px;
+  border: 6px solid rgb(230, 173, 192);
+  margin: 0 auto;
+  margin-top: 50px;
+}
